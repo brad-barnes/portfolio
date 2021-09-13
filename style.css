@@ -242,7 +242,7 @@ footer {
     position: absolute;
     color: white;
     top: 35%;
-    right: 4%;
+    right: 1px;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
   }
