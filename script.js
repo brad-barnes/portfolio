@@ -78,7 +78,7 @@ function init() {
     this.x = Math.random() * canvas.width;
     this.y = Math.random() * canvas.height;
     this.color = color[Math.floor(Math.random() * color.length)];
-    this.rad = Math.floor(Math.random() * 4.5);
+    this.rad = Math.floor(Math.random() * 7);
   }
   function vibrate() {
     // if (canvas.width < document.documentElement.clientWidth) {
