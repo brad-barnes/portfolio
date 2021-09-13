@@ -255,9 +255,10 @@ footer {
     position: absolute;
     color: white;
     top: 35%;
-    right: -5px;
+    right: -20px;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
+    width: 90%;
     /* margin-left: 10%; */
     /* padding-left: 5%; */
   }
