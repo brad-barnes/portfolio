@@ -38,7 +38,6 @@ window.addEventListener("scroll", function () {
     nav.classList.add("navbar-light");
     nav.classList.add("bg-light");
   }
-  console.log(window.scrollY);
 });
 
 window.onload = init();
