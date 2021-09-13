@@ -74,6 +74,7 @@ button {
   margin-top: 7%;
   margin-bottom: -50px;
   padding: 10%;
+  padding-top: 15%;
   /* background-image: url("./img/contact-image.jpg"); */
   background-image: radial-gradient(rgb(101, 101, 101) 1%, black 99%);
 }
