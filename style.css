@@ -229,6 +229,16 @@ footer {
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
   }
+  .subHeader {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  .menuBtn {
+    position: absolute;
+    top: 17px;
+    left: 400px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -251,6 +261,12 @@ footer {
     margin-top: 20px;
     margin-bottom: 35px;
   }
+
+  .menuBtn {
+    position: absolute;
+    top: 18px;
+    left: 300px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -262,6 +278,12 @@ footer {
     /* left: 100px; */
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
+  }
+
+  .menuBtn {
+    position: absolute;
+    top: 18px;
+    left: 335px;
   }
 }
 
@@ -281,5 +303,11 @@ footer {
   .subHeader {
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+
+  .menuBtn {
+    position: absolute;
+    top: 18px;
+    left: 240px;
   }
 }
