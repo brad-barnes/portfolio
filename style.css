@@ -2,6 +2,12 @@ html {
   background-color: black;
 }
 
+/* *,
+*:before,
+*:after {
+  max-width: 100%;
+} */
+
 .canvasContainer {
   margin: 0 auto;
   text-align: center;
@@ -40,7 +46,7 @@ button {
   padding-right: 10%;
   padding-left: 10%;
   padding-bottom: 7%;
-  padding-top: 7%;
+  padding-top: 12.5%;
 }
 
 .menuBtn {
