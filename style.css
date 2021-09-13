@@ -205,6 +205,18 @@ footer {
   margin-bottom: -7%;
 }
 
+.goHomeIconContainer {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.goHomeIcon {
+  color: white;
+  font-size: 5rem;
+  color: #7464a1;
+}
+
 @media only screen and (max-width: 900px) {
   .headerContainer {
     position: absolute;
