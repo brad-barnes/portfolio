@@ -245,7 +245,7 @@ footer {
     right: 1px;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     /* padding-left: 5%; */
   }
 }
