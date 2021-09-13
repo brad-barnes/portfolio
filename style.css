@@ -238,7 +238,12 @@ footer {
     text-shadow: 5px 5px 5px gray;
   }
 
+  .header {
+    font-size: 2rem;
+  }
+
   .subHeader {
+    font-size: 1.7rem;
     margin-top: 20px;
     margin-bottom: 35px;
   }
@@ -253,8 +258,6 @@ footer {
     /* left: 100px; */
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
-    /* margin-left: 10%; */
-    /* padding-left: 5%; */
   }
 }
 
