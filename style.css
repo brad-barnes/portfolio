@@ -249,3 +249,16 @@ footer {
     /* padding-left: 5%; */
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .headerContainer {
+    position: absolute;
+    color: white;
+    top: 35%;
+    right: 0px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 5px 5px 5px gray;
+    /* margin-left: 10%; */
+    /* padding-left: 5%; */
+  }
+}
