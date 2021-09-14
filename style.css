@@ -377,11 +377,11 @@ footer {
     margin-bottom: 35px;
   }
 
-  .menuBtn {
+  /* .menuBtn {
     position: absolute;
     top: 17px;
     left: 400px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 550px) {
@@ -405,11 +405,11 @@ footer {
     margin-bottom: 35px;
   }
 
-  .menuBtn {
+  /* .menuBtn {
     position: absolute;
     top: 18px;
     left: 300px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -423,11 +423,11 @@ footer {
     text-shadow: 5px 5px 5px gray;
   }
 
-  .menuBtn {
+  /* .menuBtn {
     position: absolute;
     top: 18px;
     left: 335px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 375px) {
@@ -448,9 +448,9 @@ footer {
     margin-bottom: 30px;
   }
 
-  .menuBtn {
+  /* .menuBtn {
     position: absolute;
     top: 18px;
     left: 240px;
-  }
+  } */
 }
