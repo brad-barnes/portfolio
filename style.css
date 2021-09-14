@@ -261,7 +261,7 @@ footer {
 }
 
 .CTAbtn:hover > .btnArrow {
-  animation: Rotate 1.3s;
+  animation: Rotate 1s;
   animation-fill-mode: forwards;
 }
 
