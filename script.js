@@ -1,6 +1,8 @@
 const nav = document.getElementById("mainNav");
 const screenWidth = document.querySelector("html").clientWidth;
 const cta = document.querySelector(".CTAbtn");
+const name = document.querySelector(".name");
+const btnArrow = document.querySelector(".btnArrow");
 
 (function () {
   if (screenWidth < 800) {
@@ -13,6 +15,28 @@ const cta = document.querySelector(".CTAbtn");
 // cta.addEventListener("click", function () {
 //   console.log("CLICKED");
 // });
+
+cta.addEventListener("mouseover", function () {
+  name.classList.remove("nameOff");
+  name.classList.add("nameOn");
+
+  // btnArrow.classList.remove("btnArrowOff");
+  // btnArrow.classList.add("btnArrowOn");
+
+  cta.classList.remove("CTAbtnColorOff");
+  cta.classList.add("CTAbtnColorOn");
+});
+
+cta.addEventListener("mouseout", function () {
+  name.classList.remove("nameOn");
+  name.classList.add("nameOff");
+
+  // btnArrow.classList.remove("btnArrowOn");
+  // btnArrow.classList.add("btnArrowOff");
+
+  cta.classList.remove("CTAbtnColorOn");
+  cta.classList.add("CTAbtnColorOff");
+});
 
 window.addEventListener("resize", function () {
   if (window.innerWidth < 800) {

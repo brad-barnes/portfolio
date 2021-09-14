@@ -75,6 +75,10 @@ button {
   outline: none;
 }
 
+.aboutHeader {
+  padding-bottom: 1%;
+}
+
 #contact {
   margin-top: 7%;
   margin-bottom: -50px;
@@ -188,6 +192,101 @@ footer {
     opacity: 1;
   }
 }
+
+.btnArrow {
+  font-size: 2rem;
+  position: relative;
+  right: -7px;
+  top: 4px;
+}
+
+.CTAbtn {
+  padding-top: 6px;
+}
+
+.CTAbtnColorOn {
+  animation: changeColor 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeColor {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(245, 245, 124);
+  }
+}
+
+.CTAbtnColorOff {
+  animation: changeColorOff 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeColorOff {
+  0% {
+    color: rgb(245, 245, 124);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.nameOn {
+  animation: nameColorOn 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nameColorOn {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(245, 245, 124);
+  }
+}
+
+.nameOff {
+  animation: nameColorOff 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nameColorOff {
+  0% {
+    color: rgb(245, 245, 124);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.CTAbtn:hover > .btnArrow {
+  animation: Rotate 1.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+/* .btnArrowOff {
+  animation: UnRotate 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes UnRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+} */
 
 .aboutHeader {
   text-align: center;
