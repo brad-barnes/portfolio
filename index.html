@@ -48,6 +48,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
+              <a class="nav-link" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
@@ -60,7 +63,8 @@
         </div>
       </div>
     </nav>
-    <div class="canvasContainer" id="page-top">
+
+    <section class="canvasContainer" id="page-top">
       <div class="headerContainer">
         <h1 class="header">Hi. I'm <span class="name">Brad Barnes</span>.</h1>
         <h1 class="subHeader">Web Developer.</h1>
@@ -70,8 +74,15 @@
         ></a>
       </div>
       <canvas id="canvas"></canvas>
-    </div>
-    <div class="afterCanvas" id="about">
+    </section>
+    <!-- <div
+      class="scrollSpyContainer"
+      data-bs-spy="scroll"
+      data-bs-target="#mainNav"
+      data-bs-offset="0"
+      tabindex="0"
+    > -->
+    <section class="afterCanvas" id="about">
       <h1 class="aboutHeader text-uppercase">About Me</h1>
       <div class="underlineContainer">
         <svg
@@ -107,7 +118,7 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-    </div>
+    </section>
 
     <section id="contact" class="contact-section bg-black">
       <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i> -->
@@ -177,6 +188,7 @@
         Copyright &copy; Brad Barnes 2021
       </div>
     </footer>
+    <!-- </div> -->
     <script src="script.js"></script>
   </body>
 </html>
