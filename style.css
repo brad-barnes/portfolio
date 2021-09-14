@@ -21,7 +21,7 @@ body {
 .headerContainer {
   position: absolute;
   color: white;
-  top: 35%;
+  top: 42%;
   right: 33%;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 button {
-  margin-top: 5%;
+  margin-top: 7%;
   font-size: 1.3rem;
 }
 
@@ -222,7 +222,7 @@ footer {
   .headerContainer {
     position: absolute;
     color: white;
-    top: 35%;
+    top: 42%;
     right: 27%;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
@@ -233,7 +233,7 @@ footer {
   .headerContainer {
     position: absolute;
     color: white;
-    top: 35%;
+    top: 42%;
     right: 25%;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
@@ -244,7 +244,7 @@ footer {
   .headerContainer {
     position: absolute;
     color: white;
-    top: 35%;
+    top: 42%;
     /* right: 16%; */
     left: 20%;
     font-family: "Roboto", sans-serif;
@@ -266,7 +266,7 @@ footer {
   .headerContainer {
     position: absolute;
     color: white;
-    top: 35%;
+    top: 42%;
     /* right: 12%; */
     left: 26%;
     font-family: "Roboto", sans-serif;
@@ -294,7 +294,7 @@ footer {
   .headerContainer {
     position: absolute;
     color: white;
-    top: 35%;
+    top: 42%;
     right: 0px;
     /* left: 100px; */
     font-family: "Roboto", sans-serif;
@@ -312,7 +312,7 @@ footer {
   .headerContainer {
     position: absolute;
     color: white;
-    top: 35%;
+    top: 42%;
     /* right: -20px; */
     left: 20px;
     font-family: "Roboto", sans-serif;
