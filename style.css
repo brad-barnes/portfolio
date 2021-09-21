@@ -75,7 +75,7 @@ button {
 }
 
 .aboutHeader {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 #contact {
@@ -295,10 +295,18 @@ footer {
 .underlineContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 #about {
+  border-top: 14px solid #7464a1;
+  border-bottom: 14px solid #7464a1;
+  margin-top: -7px;
+  margin-bottom: -7%;
+  padding-bottom: 17%;
+}
+
+#projects {
   border-top: 14px solid #7464a1;
   border-bottom: 14px solid #7464a1;
   margin-top: -7px;
