@@ -24,6 +24,8 @@ cta.addEventListener("mouseover", function () {
   // btnArrow.classList.add("btnArrowOn");
 
   cta.classList.remove("CTAbtnColorOff");
+  cta.classList.remove("CTAbtnColorOff2");
+
   cta.classList.add("CTAbtnColorOn");
 });
 

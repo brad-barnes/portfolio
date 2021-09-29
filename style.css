@@ -78,6 +78,45 @@ button {
   padding-bottom: 2%;
 }
 
+#aboutIcons {
+  /* display: flex;
+  justify-content: space-around; */
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.htmlIcon {
+  font-size: 7rem;
+}
+
+.cssIcon {
+  font-size: 7rem;
+}
+
+.jsIcon {
+  font-size: 7rem;
+}
+
+.reactIcon {
+  font-size: 7rem;
+}
+
+.amazing {
+  margin-top: 45px;
+  font-size: 1.5rem;
+}
+
+.amazing a {
+  text-decoration: none;
+}
+
+.amazing a,
+a:visited,
+a:hover,
+a:active {
+  color: #7464a1;
+}
+
 #contact {
   margin-top: 7%;
   margin-bottom: -50px;
@@ -231,6 +270,20 @@ footer {
   }
 }
 
+.CTAbtnColorOff2 {
+  animation: changeColorOff2 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeColorOff2 {
+  0% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
+
 .nameOn {
   animation: nameColorOn 1s;
   animation-fill-mode: forwards;
@@ -353,7 +406,18 @@ footer {
     position: absolute;
     color: white;
     top: 42%;
-    right: 28%;
+    left: 32%;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 5px 5px 5px gray;
+  }
+}
+
+@media only screen and (max-width: 1097px) {
+  .headerContainer {
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 32%;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
   }
@@ -387,7 +451,7 @@ footer {
     color: white;
     top: 42%;
     /* right: 16%; */
-    left: 20%;
+    left: 29%;
     font-family: "Roboto", sans-serif;
     text-shadow: 5px 5px 5px gray;
   }
