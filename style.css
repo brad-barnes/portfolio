@@ -54,7 +54,7 @@ button {
 }
 
 .menuBtn {
-  margin-top: -5%;
+  margin-top: 0;
 }
 
 .CTAbtn {
@@ -393,8 +393,9 @@ footer {
 .about-teach {
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  /* text-align: left; */
 }
 
 .aboutHeader {
@@ -528,6 +529,11 @@ footer {
 
   .math-of-emotion img {
     max-width: 240px;
+  }
+
+  .about-teach {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
