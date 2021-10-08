@@ -123,8 +123,8 @@ function init() {
       );
 
       particleMouse = Math.max(
-        Math.min(75 / (particleDistance / p.rad), 10),
-        0.1
+        Math.min(75 / (particleDistance / p.rad), 4),
+        0.001
       );
       context.beginPath();
       context.fillStyle = p.color;
@@ -138,7 +138,7 @@ function init() {
       context.fill();
     }
   }
-  setInterval(vibrate, 200);
+  setInterval(vibrate, 100);
 }
 
 // ScrollSpy
