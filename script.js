@@ -73,7 +73,7 @@ function init() {
   context = canvas.getContext("2d");
   // canvas.width = window.innerWidth;
   // canvas.height = window.innerHeight;
-  canvas.width = 2000;
+  canvas.width = 2700;
   canvas.height = window.innerHeight;
   canvas.addEventListener("mousemove", MouseMove, false);
 
