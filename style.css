@@ -20,8 +20,11 @@ body {
 .headerContainer {
   position: absolute;
   color: white;
-  top: 42%;
-  right: 33%;
+  /* top: 42%;
+  right: 33%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .header {
@@ -426,9 +429,42 @@ footer {
 }
 
 .goHomeIconContainer {
-  text-align: center;
-  position: relative;
-  top: 40px;
+  /* text-align: center;
+  position: relative; */
+  margin: 0 auto;
+  /* top: 40px; */
+  margin-top: 5%;
+  max-width: 3rem;
+  /* background-image: radial-gradient(white 50%, rgba(255, 255, 255, 0) 51%); */
+}
+
+.goHomeIconContainer:hover {
+  animation: iconHover 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes iconHover {
+  0% {
+    background-image: radial-gradient(rgba(255, 255, 255, 0) 51%);
+  }
+  25% {
+    background-image: radial-gradient(
+      rgb(245, 245, 124) 10%,
+      rgba(255, 255, 255, 0) 51%
+    );
+  }
+  70% {
+    background-image: radial-gradient(
+      rgb(245, 245, 124) 30%,
+      rgba(255, 255, 255, 0) 51%
+    );
+  }
+  100% {
+    background-image: radial-gradient(
+      rgb(245, 245, 124) 50%,
+      rgba(255, 255, 255, 0) 51%
+    );
+  }
 }
 
 .goHomeIcon {
@@ -437,83 +473,62 @@ footer {
   color: #7464a1;
 }
 
+/* .goHomeIcon:hover {
+  animation: nameColorOff 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nameColorOn {
+  0% {
+    color: white;
+  }
+  100% {
+    color: rgb(245, 245, 124);
+  }
+} */
+
 .contact-email::before {
   content: "\A";
   white-space: pre;
 }
 
 @media only screen and (min-width: 1450px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    right: 37%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
 }
 
 @media only screen and (min-width: 1280px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    left: 33%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
 }
 
 @media only screen and (max-width: 1100px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    left: 32%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
-  .subHeader {
+  /* .subHeader {
     margin-top: 22px;
     margin-bottom: 37px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1097px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    left: 32%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-    /* al;sdjf */
-  }
 }
 
 @media only screen and (max-width: 900px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    right: 27%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
 }
 
 @media only screen and (max-width: 800px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    right: 25%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    font-size: 2.1rem;
+  }
+
+  .subHeader {
+    font-size: 1.8rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+  .CTAbtn {
+    font-size: 1rem;
+  }
+
   .geek {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -548,19 +563,10 @@ footer {
 }
 
 @media only screen and (max-width: 650px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    /* right: 16%; */
-    left: 29%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
-  .subHeader {
+  /* .subHeader {
     margin-top: 20px;
     margin-bottom: 35px;
-  }
+  } */
 
   /* .menuBtn {
     position: absolute;
@@ -570,24 +576,18 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    /* right: 12%; */
-    left: 26%;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
-
   .header {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .subHeader {
-    font-size: 1.7rem;
-    margin-top: 20px;
-    margin-bottom: 35px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+
+  .CTAbtn {
+    font-size: 0.9rem;
   }
 
   /* .menuBtn {
@@ -595,19 +595,13 @@ footer {
     top: 18px;
     left: 300px;
   } */
+
+  .goHomeIconContainer {
+    margin-top: 10%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    left: 100px;
-    /* left: 100px; */
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
-
   /* .menuBtn {
     position: absolute;
     top: 18px;
@@ -616,16 +610,6 @@ footer {
 }
 
 @media only screen and (max-width: 390px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    left: 100px;
-    /* left: 100px; */
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-  }
-
   /* .menuBtn {
     position: absolute;
     top: 18px;
@@ -633,27 +617,37 @@ footer {
   } */
 }
 
-@media only screen and (max-width: 375px) {
-  .headerContainer {
-    position: absolute;
-    color: white;
-    top: 42%;
-    /* right: -20px; */
-    left: 20px;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 5px 5px 5px gray;
-    width: 90%;
-    /* margin-left: 10%; */
-    /* padding-left: 5%; */
-  }
-  .subHeader {
+@media only screen and (max-width: 374px) {
+  /* .subHeader {
     margin-top: 20px;
     margin-bottom: 30px;
-  }
+  } */
 
   /* .menuBtn {
     position: absolute;
     top: 18px;
     left: 240px;
   } */
+
+  .header {
+    font-size: 1.9rem;
+  }
+
+  .subHeader {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .CTAbtn {
+    margin: -10%;
+    margin-top: 15px;
+    padding: 9%;
+    padding-top: 5%;
+  }
+
+  .btnArrow {
+    font-size: 1.65rem;
+    transform: translateY(-1px);
+  }
 }
