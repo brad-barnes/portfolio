@@ -138,6 +138,17 @@ a:active {
   max-width: 1000px;
 }
 
+#projects a {
+  text-decoration: none;
+}
+
+#projects a:link,
+#projects a:visited,
+#projects a:hover,
+#projects a:active {
+  color: #7464a1;
+}
+
 /* .weather-app {
   border: 0.5px solid black;
 } */
