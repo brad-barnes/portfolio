@@ -73,7 +73,7 @@ function init() {
   context = canvas.getContext("2d");
   // canvas.width = window.innerWidth;
   // canvas.height = window.innerHeight;
-  canvas.width = 2700;
+  canvas.width = 2000;
   canvas.height = window.innerHeight;
   canvas.addEventListener("mousemove", MouseMove, false);
 
@@ -123,8 +123,8 @@ function init() {
       );
 
       particleMouse = Math.max(
-        Math.min(75 / (particleDistance / p.rad), 4),
-        0.001
+        Math.min(75 / (particleDistance / p.rad), 10),
+        0.1
       );
       context.beginPath();
       context.fillStyle = p.color;
@@ -138,7 +138,7 @@ function init() {
       context.fill();
     }
   }
-  setInterval(vibrate, 100);
+  setInterval(vibrate, 200);
 }
 
 // ScrollSpy
