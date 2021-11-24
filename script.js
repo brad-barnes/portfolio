@@ -73,7 +73,7 @@ function init() {
   context = canvas.getContext("2d");
   // canvas.width = window.innerWidth;
   // canvas.height = window.innerHeight;
-  canvas.width = 2000;
+  canvas.width = 3500;
   canvas.height = window.innerHeight;
   canvas.addEventListener("mousemove", MouseMove, false);
 
@@ -83,7 +83,7 @@ function init() {
   y = 100;
   angle = 0.2;
   radius = 50;
-  particleCount = 1000;
+  particleCount = 2000;
 
   color = [
     "rgba(192, 192, 192, 0.5)",
