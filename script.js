@@ -74,7 +74,9 @@ function init() {
   // canvas.width = window.innerWidth;
   // canvas.height = window.innerHeight;
   canvas.width = 3500;
+  // canvas.height = window.innerHeight > 1500 ? window.innerHeight : 1500;
   canvas.height = window.innerHeight;
+
   canvas.addEventListener("mousemove", MouseMove, false);
 
   mouse = { x: 0, y: 0 };
@@ -123,7 +125,7 @@ function init() {
       );
 
       particleMouse = Math.max(
-        Math.min(75 / (particleDistance / p.rad), 10),
+        Math.min(75 / (particleDistance / p.rad), 5),
         0.1
       );
       context.beginPath();
@@ -138,7 +140,7 @@ function init() {
       context.fill();
     }
   }
-  setInterval(vibrate, 200);
+  setInterval(vibrate, 100);
 }
 
 // ScrollSpy
